@@ -11,9 +11,7 @@ fs.readFile('input.txt', 'utf8', (err, data) => {
   const lines = data.split('\n');
   const csvData = lines.map(line => {
     const values = line.split('\t'); // Modify delimiter based on your TXT file
-    for(value in values){
-      return value + ","; // Convert values to CSV format
-    }
+    return values;
       
   }).join('\n'); // Join lines to create CSV content
 
