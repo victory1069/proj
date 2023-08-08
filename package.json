@@ -1,0 +1,22 @@
+{
+  "name": "tochiproj",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victory1069/projecto.git"
+  },
+  "keywords": [
+    "indexo"
+  ],
+  "author": "Victory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victory1069/projecto/issues"
+  },
+  "homepage": "https://github.com/victory1069/projecto#readme"
+}
